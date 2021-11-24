@@ -10620,7 +10620,7 @@ strong,
   display: none;
 }
 .section-title ul li:after {
-  content: "";
+  content: "\e649";
   position: absolute;
   top: 0;
   left: -15px;
@@ -10925,8 +10925,8 @@ strong,
   position: absolute;
   left: 2px;
   top: 2px;
-  height: calc(20px - 4px);
-  width: calc(20px - 4px);
+  height: 16px;
+  width: 16px;
   border-radius: 18px;
   box-sizing: border-box;
   background: #fff;
@@ -10936,12 +10936,12 @@ strong,
   transform: scale(1);
 }
 .toggle .toggle-icon:after {
-  height: calc(20px - 4px);
-  width: calc(20px - 4px);
+  height: 16px;
+  width: 16px;
   top: 2px;
   left: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  border-radius: calc(20px - 4px);
+  border-radius: 16px;
   background: #fff;
   position: absolute;
   z-index: 2;
@@ -11383,11 +11383,11 @@ form button {
   top: -50%;
 }
 .timeline .left-bottom {
-  left: calc(-50% - -3px);
+  left: calc(-50% + 3px);
   top: calc(50% - 3px);
 }
 .timeline .top-left {
-  left: calc(-50% - -3px);
+  left: calc(-50% + 3px);
   top: -50%;
 }
 .timeline .right-bottom {
@@ -11446,82 +11446,82 @@ form button {
 }
 
 .page.active .bar-chart:nth-child(1) .bar-percentage {
-  width: 90%;
+  width: 90% !important;
   transition-delay: 2s;
 }
 
 .page.active .bar-chart:nth-child(2) .bar-percentage {
-  width: 70%;
+  width: 90% !important;
   transition-delay: 2.1s;
 }
 
 .page.active .bar-chart:nth-child(3) .bar-percentage {
-  width: 80%;
+  width: 60% !important;
   transition-delay: 2.2s;
 }
 
 .page.active .bar-chart:nth-child(4) .bar-percentage {
-  width: 85%;
+  width: 50% !important;
   transition-delay: 2.3s;
 }
 
 .page.active .bar-chart:nth-child(5) .bar-percentage {
-  width: 90%;
+  width: 90% !important;
   transition-delay: 2.4s;
 }
 
 .page.active .bar-chart:nth-child(6) .bar-percentage {
-  width: 70%;
+  width: 90% !important;
   transition-delay: 2.5s;
 }
 
 .page.active .bar-chart:nth-child(7) .bar-percentage {
-  width: 80%;
+  width: 95% !important;
   transition-delay: 2.6s;
 }
 
 .page.active .bar-chart:nth-child(8) .bar-percentage {
-  width: 85%;
+  width: 95% !important;
   transition-delay: 2.7s;
 }
 
 .animated.active .bar-chart:nth-child(1) .bar-percentage {
-  width: 90%;
+  width: 90% !important;
   transition-delay: 1s;
 }
 
-.animated.active .bar-chart:nth-child(2) .bar-percentage {
-  width: 70%;
+.animated.active .bar-chart:nth-child(1) .bar-percentage {
+  width: 90% !important;
   transition-delay: 1.1s;
 }
 
 .animated.active .bar-chart:nth-child(3) .bar-percentage {
-  width: 80%;
+  width: 60% !important;
   transition-delay: 1.2s;
 }
 
 .animated.active .bar-chart:nth-child(4) .bar-percentage {
-  width: 85%;
+  width: 50% !important;
   transition-delay: 1.3s;
 }
 
 .animated.active .bar-chart:nth-child(5) .bar-percentage {
-  width: 90%;
+  width: 90% !important;
   transition-delay: 1.4s;
 }
 
 .animated.active .bar-chart:nth-child(6) .bar-percentage {
-  width: 70%;
+  width: 90% !important;
   transition-delay: 1.5s;
 }
 
 .animated.active .bar-chart:nth-child(7) .bar-percentage {
-  width: 80%;
+  width: 95% !important;
   transition-delay: 1.6s;
 }
 
 .animated.active .bar-chart:nth-child(8) .bar-percentage {
-  width: 85%;
+  width: 95% !important;
   transition-delay: 1.7s;
 }
 
@@ -11815,7 +11815,7 @@ form button {
 }
 
 .project-item-wrap {
-  min-height: calc(100vh);
+  min-height: 100vh;
   display: flex;
   align-items: center;
   position: fixed;
